@@ -5,8 +5,8 @@ import colors from '../../style/colors';
 export const Wrapper = styled.div`
   position: fixed;
   top: 0;
-  width: 100%;
-  padding: 10px;
+  width: calc(100% - 30px);
+  padding: 10px 15px;
   background-color: ${colors.primary};
   transition: background-color 200ms linear;
   z-index: 9999;
@@ -23,8 +23,7 @@ export const Logo = styled.h1`
 export const childStyles = {
   ContentMiddle: `
       ${flex.horizontal}
+      ${flex.centerHorizontalV}
       ${flex.spaceBetween}
-      ${flex.wrap}
-      height: 100%;
     `,
 };

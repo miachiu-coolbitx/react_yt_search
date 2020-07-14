@@ -1,13 +1,15 @@
 import React from 'react';
 //meta tags
 import Helmet from 'react-helmet';
+import Grid from '@material-ui/core/Grid';
 import { Wrapper } from './style';
+import { ContentMiddle } from '../../style/style';
 
-const Content = () => {
+export default function Content(props) {
   return (
     <Wrapper>
       <Helmet title="YT Search" />
-      <ContentMiddle styles={childStyles.ContentMiddle}>
+      <ContentMiddle>
         <Grid container>
           <Grid item sm={9}>
             {/* <Item /> */}
@@ -20,6 +22,4 @@ const Content = () => {
       </ContentMiddle>
     </Wrapper>
   );
-};
-
-export default Content;
+}
