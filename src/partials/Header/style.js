@@ -3,10 +3,9 @@ import flex from '../../style/flex';
 import colors from '../../style/colors';
 
 export const Wrapper = styled.div`
-  position: fixed;
-  top: 0;
+  position: relative;
   width: calc(100% - 30px);
-  padding: 10px 15px;
+  padding: 30px 15px;
   background-color: ${colors.primary};
   transition: background-color 200ms linear;
   z-index: 9999;

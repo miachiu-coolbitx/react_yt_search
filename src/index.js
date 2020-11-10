@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { BrowserRouter, Switch } from 'react-router-dom';
 import './index.css';
-import App from './App';
+import Content from './partials/Content';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <BrowserRouter>
+      <Switch> */}
+    <Content />
+    {/* </Switch>
+    </BrowserRouter> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

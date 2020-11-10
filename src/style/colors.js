@@ -1,7 +1,7 @@
 const colors = {
-  primary: '#1B1E2B',
-  secondary: '#292D3E',
-  font: '#757CA1',
+  primary: '#262649',
+  secondary: '#C36E8D',
+  font: '#C36E8D',
   hint: '#80CBC4',
 };
 

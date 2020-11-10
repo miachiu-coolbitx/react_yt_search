@@ -5,13 +5,14 @@ export const Wrapper = styled.div`
   position: relative;
   margin: 0;
   padding: 0;
-  background-color: ${colors.secondary};
-  min-height: 100vh;
+  background-color: ${colors.primary};
 `;
 
 export const ContentMiddle = styled.div`
+  position: relative;
   width: 100%;
-  max-width: 960px;
+  height: 100%;
   margin: auto;
+  padding: 30px;
   ${(props) => props.styles}
 `;
